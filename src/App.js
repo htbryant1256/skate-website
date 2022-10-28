@@ -3,6 +3,7 @@ import NaplesPage from './Pages/naples.js';
 import FtMyersPage from './Pages/ft-myers';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+{/*App.js being used to establish page routes.*/ }
 
 function App() {
     return (

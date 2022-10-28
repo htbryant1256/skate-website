@@ -1,5 +1,6 @@
 import './naples.css'
 import { Link } from 'react-router-dom';
+{/*Website Naples skate spots page*/ }
 
 
 const NaplesPage = () => {

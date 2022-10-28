@@ -1,6 +1,6 @@
 import './ft-myers.css'
 import { Link } from 'react-router-dom';
-
+{/*Website Ft.Myers skate spots page*/ }
 
 const FtMyersPage = () => {
     return (
