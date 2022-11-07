@@ -35,8 +35,12 @@ const FtMyersPage = () => {
             </div>
             <div className="Ft-Myers-Page-Body">
                 Ft.Myers Skate Spots Page.
-                <p>{!data ? "loading..." : data[0]}</p>
-                <p>{!data ? "loading..." : data[1]}</p>
+                <div className="Ft-Myers-Location-List">
+                    <p>{!data ? "loading..." : data[0]}</p>
+                    <p>{!data ? "loading..." : data[1]}</p>
+         
+
+                </div>
 
 
             </div>
