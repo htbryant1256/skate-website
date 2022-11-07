@@ -1,11 +1,25 @@
 import './naples.css'
+import React from "react";
+
 import { Link } from 'react-router-dom';
 {/*Website Naples skate spots page*/ }
 
 
 const NaplesPage = () => {
+    const [data, setData] = React.useState(null);
+
+
+    React.useEffect(() => {
+        fetch("/api")
+            .then((res) => res.json())
+            .then((data) => setData(data.naples_locations));
+    }, []);
+
+
     return (
+
         <div className="Naples-Page">
+
             <div className="Naples-Page-Header">
                 <div className="Naples-Page-Home-Link">
 
@@ -22,6 +36,10 @@ const NaplesPage = () => {
             </div>
             <div className="Naples-Page-Body">
                 Naples Skate Spots Page.
+                <p>{!data ? "loading..." : data}</p>
+                <p>{!data ? "loading..." : data}</p>
+
+                
             </div>
 
 
