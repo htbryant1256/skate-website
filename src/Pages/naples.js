@@ -36,8 +36,8 @@ const NaplesPage = () => {
             </div>
             <div className="Naples-Page-Body">
                 Naples Skate Spots Page.
-                <p>{!data ? "loading..." : data}</p>
-                <p>{!data ? "loading..." : data}</p>
+                <p>{!data ? "loading..." : data[0]}</p>
+                <p>{!data ? "loading..." : data[1]}</p>
 
                 
             </div>
