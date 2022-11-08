@@ -5,6 +5,8 @@ Our team will be using the Google HTML/CSS style guide to follow good programmin
 
 Back end implemented using node.js and Express api.
 
+Planning on hosting with Heroku.
+
 
 ![image](https://user-images.githubusercontent.com/60831223/198457322-45dde590-e1d7-4e4c-82aa-bfee9eff119f.png)
 
