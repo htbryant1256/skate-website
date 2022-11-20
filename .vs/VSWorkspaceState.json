@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
+    "\\server",
     "\\src"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\src\\Pages",
   "PreviewInSolutionExplorer": false
 }

@@ -1,6 +1,11 @@
+
+a:visited {
+    color: white;
+}
+
 .Naples-Page {
     text-align: initial;
-    background-color: #29a88f;
+    background-color: #CBD2D0;
     min-height: 100vh;
     font-size: calc(10px + 2vmin);
     color: #61dafb;
@@ -8,42 +13,47 @@
 
 .Naples-Page-Header {
     text-align: center;
-    background-color: #104238;
+    background-color: #731963;
     height: 100px;
 }
 
+.Naples-Page-Column {
+    background-color: #0B3C49;
+    height: 900px;
+    float: left;
+    width: 270px;
+}
+
+
 .Naples-Page-Home-Link {
-    width: 300px;
-    background-color: rgb(200 200 200);
-    color: black;
-    padding: 5px 5px;
-    font-size: 32px;
+    padding-top: 10px;
+    font-size: 40px;
     display: block;
 }
 
 .Naples-Page-Naples-Link {
-    width: 60px;
-    background-color: rgb(200 200 200);
-    color: black;
-    padding: 5px 32px;
-    font-size: 16px;
-    display: inline;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 32px;
+    display: block;
 }
 
 .Naples-Page-Ft-Myers-Link {
-    width: 60px;
-    background-color: rgb(200 200 200);
-    color: black;
-    padding: 5px 32px;
-    font-size: 16px;
-    display: inline;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 32px;
+    display: block;
 }
 
+
 .Naples-Page-Body {
+    margin-left: 270px;
+    height: 870px;
+    padding-left: 40px;
+    padding-top: 30px;
     color: black;
-    text-align: center;
-}
-.Naples-Location-List {
-    color: black;
-    text-align: left;
 }

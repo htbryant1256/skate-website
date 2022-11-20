@@ -10,6 +10,11 @@ const HomePage = () =>{
 
                     <Link to="/">SWFL Skate Spots</Link>
                 </div>
+                
+            </div>
+
+            <div className="Home-Page-Column">
+
                 <div className="Home-Page-Naples-Link">
 
                     <Link to="/naples">Naples Page</Link>
@@ -18,15 +23,13 @@ const HomePage = () =>{
 
                     <Link to="/ft-myers">Ft.Myers Page</Link>
                 </div>
-                
             </div>
+
             <div className="Home-Page-Body">
-                Home Page.
+                Home Page
             </div>
             
-            
-            
-            
+                  
         </div>
         
         

@@ -24,6 +24,9 @@ const FtMyersPage = () => {
 
                     <Link to="/">SWFL Skate Spots</Link>
                 </div>
+            </div>
+            <div className="Ft-Myers-Page-Column">
+
                 <div className="Ft-Myers-Page-Naples-Link">
 
                     <Link to="/naples">Naples Page</Link>
@@ -32,7 +35,12 @@ const FtMyersPage = () => {
 
                     <Link to="/ft-myers">Ft.Myers Page</Link>
                 </div>
+
+
+
             </div>
+
+
             <div className="Ft-Myers-Page-Body">
                 Ft.Myers Skate Spots Page.
                 <div className="Ft-Myers-Location-List">
