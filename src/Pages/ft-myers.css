@@ -2,6 +2,9 @@
 a:visited {
     color: white;
 }
+a:link {
+    text-decoration: none;
+}
 
 .Ft-Myers-Page {
     text-align: initial;

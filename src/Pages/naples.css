@@ -3,6 +3,10 @@ a:visited {
     color: white;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 .Naples-Page {
     text-align: initial;
     background-color: #CBD2D0;
