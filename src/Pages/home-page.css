@@ -51,6 +51,8 @@ a:visited {
 
 
 .Home-Page-Body {
+    text-align:center;
+    font-size: 40px;
     margin-left: 270px;
     height: 870px;
     padding-left: 40px;

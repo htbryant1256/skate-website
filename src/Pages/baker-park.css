@@ -51,9 +51,16 @@ a:visited {
 
 
 .baker-park-Page-Body {
+    font-size: 40px;
+    text-align: center;
     margin-left: 270px;
     height: 870px;
     padding-left: 40px;
     padding-top: 30px;
     color: black;
+}
+
+.baker-park-Location-List {
+    text-align: left;
+    font-size: 32px;
 }

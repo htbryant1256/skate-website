@@ -51,9 +51,15 @@ a:visited {
 
 
 .Ft-Myers-Page-Body {
+    font-size: 40px;
+    text-align:center;
     margin-left: 270px;
     height: 870px;
     padding-left: 40px;
     padding-top: 30px;
     color: black;
+}
+.Ft-Myers-Location-List {
+    font-size: 32px;
+    text-align: left;
 }

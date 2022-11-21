@@ -42,11 +42,9 @@ const BakerParkPage = () => {
 
 
             <div className="baker-park-Page-Body">
-                Baker Park Test Page
+                <p>{!data ? "loading..." : data[0][0]}</p>
                 <div className="baker-park-Location-List">
-                    <p>{!data ? "loading..." : data[0]}</p>
-                    <p>{!data ? "loading..." : data[1]}</p>
-         
+                    <p> Address: {!data ? "loading..." : data[0][1]}</p>
 
                 </div>
 
