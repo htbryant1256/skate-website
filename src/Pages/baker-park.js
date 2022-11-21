@@ -43,8 +43,12 @@ const BakerParkPage = () => {
 
             <div className="baker-park-Page-Body">
                 <p>{!data ? "loading..." : data[0][0]}</p>
+                <img src="https://manhattanconstructiongroup.com/manhattan-construction-company/wp-content/uploads/sites/5/2020/10/Baker-Park-8.jpg" scale=".5" />
+
                 <div className="baker-park-Location-List">
+
                     <p> Address: {!data ? "loading..." : data[0][1]}</p>
+                    <p> Description: {!data ? "loading..." : data[0][2]}</p>
 
                 </div>
 
