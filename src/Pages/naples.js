@@ -42,7 +42,7 @@ const NaplesPage = () => {
             <div className="Naples-Page-Body">
                 Naples Skate Spots Page.
                 <div className="Naples-Location-List">
-                    <p>{!data ? "loading..." : data[0]}</p>
+                    <Link to="/naples/baker-park">{!data ? "loading..." : data[0][0]}</Link>
                     <p>{!data ? "loading..." : data[1]}</p>
                     </div>
            
