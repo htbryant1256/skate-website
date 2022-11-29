@@ -1,6 +1,7 @@
 const express = require("express");
 const path = require("path");
 const app = express();
+const PORT = process.env.PORT || 3001;
 
 //This will create a middleware.
 //When you navigate to the root page, it would use the built react-app
