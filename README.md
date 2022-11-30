@@ -7,6 +7,8 @@ Back end implemented using node.js and Express api.
 
 Planning on hosting with Heroku.
 
+Figma: https://www.figma.com/file/DS8WIVs6tUGPTFhmvvL7WO/SWFL-Skates-Website?node-id=2%3A23&t=Z0dXkAJ40rGRJBfh-0
+
 ![image](https://user-images.githubusercontent.com/60831223/202914478-60f5bc47-0394-4459-9c3f-cb3e32e01bb0.png)
 
 ![image](https://user-images.githubusercontent.com/60831223/202914486-6aeeb5c1-1eff-42bd-af73-665a561463d7.png)
